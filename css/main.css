@@ -1,0 +1,174 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font: normal 100%/1.5 sans-serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+@media only screen and (min-width: 60em) {
+    
+    html {
+        font-size: 110%;
+    }
+
+}
+
+@media only screen and (min-width: 90em) {
+    
+    html {
+        font-size: 120%;
+    }
+
+}
+    
+@media only screen and (min-width: 120em) {
+    
+    html {
+        font-size: 130%;
+    }
+
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+font-family: Open Sans;
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+color: #666;
+height: 100%;
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+line-height: 1.7;
+color: #666666;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+-webkit-text-size-adjust: 100%;
+background-color: #fff;
+}
+
+element.style {
+margin-bottom: 316px;
+}
+
+.nav li {
+  display: block;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
+
+  color: #0074D9;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+  background-color: #0074D9;
+
+  color: #fff;
+}
+
+.parallax {
+    background-image: url(../images/topbanner.jpg);
+    background-size: cover;
+}
+
+@media only screen and (min-width: 25em) {
+    
+    .consortium {
+        text-align: center
+    }
+
+  .nav {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+    .h2 {
+    padding-top: 2em;
+    }
+}
+
+.marsmoon {
+    background-color: #efefef;
+}
+
+.title {
+  margin: 0;
+padding: 0;
+    text-align:center;
+}
+    
+
+@media only screen and (min-width: 38em) {
+    
+
+  .title {
+    float: left;
+}
+
+    .consortium {
+        text-align: left;
+    }
+
+  .nav {
+    text-align: right;
+  }
+
+.h2 {
+    padding-top: 2em;
+}
+
+}
+    
+@media only screen and (min-width: 60em) {
+    
+   .title {
+  margin: 0;
+    text-align:left;
+}
+    
+    .consortium {
+        text-align: left;
+    }
+    
+    .nav {
+        text-align: right;
+    }
+    
+.dt {
+  clear: left;
+  float: left;
+  width: 8em;
+}
+
+.dd {
+  float: left;
+}
+    
+.moontext {
+        padding-left: 1em;
+    }
+
+}
